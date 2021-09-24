@@ -1,4 +1,4 @@
-console.log('You Need to learn Javascript !!');
+// console.log('You Need to learn Javascript !!');
 
 //To fetch an api from client side for json data.
 // fetch('/weather?address=Kualalumpur').then( (response) => {
