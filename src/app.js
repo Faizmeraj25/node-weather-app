@@ -31,7 +31,7 @@ app.get('', (req,res) => {
 
 app.get('/help', (req,res) => {
     res.render('help',{
-        contact  : '+91-9670424318',
+        contact  : '+91-9876543210',
         title: 'Help',
         name: 'Faiz',
         year: '2021'
