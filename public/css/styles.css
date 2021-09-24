@@ -1,0 +1,58 @@
+
+h1{
+    color: brown;
+    text-align: center;
+}
+img{
+display: inline;
+float: left;
+width: 250px;
+height: 300px;
+border-radius: 100%;
+}
+.navigation{
+    display :inline-block;
+}
+a{
+    background-color:lightgreen;
+    text-decoration: none;
+    color: darkcyan;
+    float: left;
+    margin-left: 20px;
+    padding: 10px 30px;
+}
+a:hover{
+    color: coral;
+}
+.headerror{
+    color:red;
+    font: 1.5em sans-serif;
+    background-color: slategray;
+    padding: 30px 20px;
+    margin: 20px 40px;
+    text-align: center;
+}
+.address-input label{
+    font-size:1.2em;
+    color:grey;
+}
+#address{
+    padding:10px 20px;
+    border-radius:15px;
+    border: 1px solid grey;
+    font-size:1.2em
+}
+.btn-address{
+    padding: 15px 25px;
+    color:black;
+    margin-left: 10px;
+    background-color:lightgrey;
+    border:none;
+    cursor: pointer;
+    border-radius:12px;
+}
+.btn-address:hover{
+    color:white;
+    background-color:darkgrey;
+    transition: 0.2s
+}

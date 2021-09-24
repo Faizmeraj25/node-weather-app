@@ -1,0 +1,4 @@
+Step 1. Get the API work in abstraction.Make a separate function for each API.
+Step 2. Wire up the backend and do the appropriate routing.
+Step 3. Get the things working by having dynamic pages (like handlebars, ejs etc) on frontend.
+Step 4. Fetch the api from the client side and display on the frontend appropriately.
