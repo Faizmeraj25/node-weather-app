@@ -4,7 +4,7 @@ h1{
     text-align: center;
 }
 img{
-display: inline;
+display: flex;
 float: left;
 width: 250px;
 height: 300px;
@@ -55,4 +55,15 @@ a:hover{
     color:white;
     background-color:darkgrey;
     transition: 0.2s
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    flex-shrink: 0;
 }

@@ -45,7 +45,6 @@ app.get('/about', (req,res) => {
     })
 })
 
-
 app.get('/weather', (req,res) => {
     if(!req.query.address){
         return res.send({
